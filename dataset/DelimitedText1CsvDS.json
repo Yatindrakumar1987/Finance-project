@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "loan_detail_new.csv",
 				"container": "source"
 			},
 			"columnDelimiter": ",",
