@@ -1,0 +1,87 @@
+{
+	"name": "DelimitedText1CsvDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ORG_ID",
+				"type": "String"
+			},
+			{
+				"name": "CLIENT_ID",
+				"type": "String"
+			},
+			{
+				"name": "FIRST_NAME",
+				"type": "String"
+			},
+			{
+				"name": "MIDDLE_NAME",
+				"type": "String"
+			},
+			{
+				"name": "LAST_NAME",
+				"type": "String"
+			},
+			{
+				"name": "DOB",
+				"type": "String"
+			},
+			{
+				"name": "AGE",
+				"type": "String"
+			},
+			{
+				"name": "FATHER_NAME",
+				"type": "String"
+			},
+			{
+				"name": "MOTHER_NAME",
+				"type": "String"
+			},
+			{
+				"name": "GENDER",
+				"type": "String"
+			},
+			{
+				"name": "MARITAL_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "QUALIFICATION",
+				"type": "String"
+			},
+			{
+				"name": "LANGUAGE",
+				"type": "String"
+			},
+			{
+				"name": "CASTE",
+				"type": "String"
+			},
+			{
+				"name": "RELIGION",
+				"type": "String"
+			},
+			{
+				"name": "OCCUPATION",
+				"type": "String"
+			}
+		]
+	}
+}
